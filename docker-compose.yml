@@ -95,7 +95,8 @@ services:
             SPRING_APPLICATION_JSON: '{
                 "orchestratorToken" : "6sdQpBgkrL6yu",
                 "orchestratorUrl" : "http://bieco-orchestrator:4000/orchestrator/biecointerface",
-                "token" : "32z27348127482371kk8(())=)=)(=))(76hgh))"}'
+                "token" : "32z27348127482371kk8(())=)=)(=))(76hgh))",
+                "AMQ_URL" : "tcp://activemq:61616"}'
 
     activemq:
         image: rmohr/activemq:latest
